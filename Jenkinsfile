@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git url: 'https://github.com/your-username/your-repo.git' // REPLACE with your repo URL
+                git url: 'https://github.com/Ajay-1510/Sonarqube-and-trivy.git' // REPLACE with your repo URL
             }
         }
 
